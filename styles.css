@@ -1,0 +1,36 @@
+/* Color-Palette: 
+#FFFFFF - White (Text) 
+#00171F - Black
+#003459 - Navy (Background) 
+#007EA7 - Teal (Div container background)
+#00A8E8 - Sky blue (Padding color) */
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #003459
+}
+
+h1 {
+    /* margin: auto; */
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.unorder-list {
+    background-color: #007EA7;
+    padding: 10px;
+    text-align: center;
+    list-style-position: inside;
+}
+
+.unorder-list li {
+    list-style-type: none;
+    background-color: #00A8E8;
+    margin: 10px;
+    padding: 10px;
+}
+
+.unorder-list li a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
